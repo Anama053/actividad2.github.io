@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Investigación</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/sky.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h3>Investigación</h3>
+					<p>
+						<small>Nombre: <p>Ana Maria Jaime Castillo</p></small>
+					</p>
+				</section>
+				<section>
+					<section>
+						<h2>Archivo plano</h2>
+						<p>Los archivos planos son una colección de información que está almacenada y es accedida de forma 							organizada en una base de datos. Se suele usar para almacenar información en una forma no 								estructurada.</p>
+						
+					</section>
+					<section>
+						<h2>Ejemplo</h2>
+						<p>Un ejemplo son los documentos CSV (valores separados 						por coma), donde la información es presentada en cada campo separado por una coma. Mientras que un sistema de archivos planos ofrece algunas ventajas, suele hacer que el almacenar y acceder agrandes cantidades de datos sea incómodo.</p>
+					</section>									
+				</section>
+				<section>
+					<section>
+						<h2>Archivo XLM</h2>
+						<p>XML es el acrónimo de Extensible Markup Language, es decir, es un lenguaje de marcado que define un conjunto de reglas para la codificación de documentos.</p>						
+					</section>
+					<section>
+						<p>Un archivo XML se divide en dos partes: prolog y body. La parte prolog consiste en metadatos administrativos, como declaración XML, instrucción de procesamiento opcional, declaración de tipo de documento y comentarios. La parte del body se compone de dos partes: estructural y de contenido (presente en los textos simples).</p>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Archivo Json</h2>
+						<p>JSON, que significa JavaScript Object Notation, es una formatación usada para estructurar datos en forma de texto y transmitirlos de un sistema a otro, como en aplicaciones cliente-servidor o en aplicaciones móviles.</p>
+						
+					</section>
+					<section>
+						<p>En la practica, .json es un archivo que contiene una serie de datos estructurados en formato de texto y se usa para transferir información entre sistemas. Es importante decir que, a pesar de su origen estar en el lenguaje JavaScript, JSON no es un lenguaje de programación.</p>
+					</section>									
+				</section>
+				<section>
+					<section>
+						<h2>Archivo Parquet</h2>
+						<p>Apache Parquet es un formato de almacenamiento en columnas enfocado en optimizar el procesamiento y el modelado de los datos.</p>		
+					</section>
+					<section>
+						<p>Apache Parquet esta compuesto por </p>
+						<dl>
+							<dt>Grupo de filas o row group
+							<dd>este es el conjunto de filas en formato columnas.
+							<dt>Cuenta de columna o column chunk
+							<dd>de esta forma, los datos de una columna en un grupo se pueden leer de manera independiente para optimizar las lecturas.
+							
+						</dl>
+					</section>	
+					<section>
+						<dl>
+							<dt>Página o page
+							<dd>hace referencia al almacenamiento de los datos.
+							<dt>Apache Spark optimiza las lecturas
+							<dd>e esta manera, el sistema permite leer los distintos row group o Grupo de filas que fueron asignados a estos datos en distintas tareas.
+							
+						</dl>
+					</section>
+					
+				
+				</section>
+				<section>
+					<section>
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/xXpGOda7_vI" title="YouTube video player" frameborder="0" allow="accelerometer; 							autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>									
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
